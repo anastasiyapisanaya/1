@@ -1,0 +1,786 @@
+html {
+    background-color: black;
+    font-family: 'Poiret One';
+    overflow-x: hidden;
+    width: 100%;
+}
+body {
+    margin: 0;
+    overflow-x: hidden;
+    width: 100%;
+}
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+@media (max-width:2335px) {
+    .container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+@media (max-width:1885px) {
+    .container {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}
+.header {
+    width: 100%;
+    position: fixed;
+    top:0;
+    background-color: #0000005a;
+    
+}
+@media (max-width:800px) {
+    .header {
+        display: flex;
+
+    }
+}
+.header_block{
+    display: flex;
+    width: 100%;
+}
+.logo {
+   
+    display: block;
+}
+.logo_img {
+    width: 160px;
+    height: 168px;
+}
+@media (max-width:1416px) {
+    .logo_img { 
+        width: 120px;
+        height: 123px;
+    }
+}
+@media (max-width:876px) {
+    .logo_img { 
+        width: 80px;
+        height: 83px;
+    }
+}
+.nav-menu {
+    margin-left: 215px;
+    width: 1330px;
+    
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    
+    line-height: 42px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+@media (max-width:2374px) {
+    .nav-menu {
+        width: 1134px;
+        margin-left: 115px;
+    }
+}
+@media (max-width:1751px) {
+    .nav-menu {
+        width: 960px;
+        margin-left: 90px;
+    }
+}
+@media (max-width:1505px) {
+    .nav-menu {
+        width: 785px;
+        margin-left: 60px;
+    }
+}
+.menu_ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-self: center;
+    
+    justify-content: space-between;
+}
+li {
+    cursor: pointer;
+    width: inherit;
+}
+li:hover {
+    text-decoration: underline;
+}
+.button_about_me {
+    width: 148px;
+}
+@media (max-width:1122px) {
+    .button_about_me {
+        width: max-content;
+    }  
+}
+.telegram,.watsapp {
+    width: 35px;
+    height: 35px;
+} 
+@media (max-width:900px) {
+    .telegram,.watsapp {
+        width: 25px;
+        height: 25px;
+    }
+}
+.menuandsocials {
+    display: none;
+    width: 100%;
+}
+.open {
+    
+    display: none;
+}
+.mobile__menu { 
+    width: 10px;
+    height: 20px;
+    
+   
+}
+@media (max-width:768px) {
+    .open {
+        height: 20px;
+        align-self: center;
+        display: block;
+    }
+    .nav-menu {
+        display: none;
+    } 
+    .mobile__menu {
+        visibility: hidden;
+    }
+    .active {
+        visibility: visible;
+        
+    }
+    .menuandsocials {
+        
+        justify-content: flex-end;
+        display: flex;
+    }
+    .mobile_menu_ul {
+        padding-top: 20px;
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.819);
+    }
+    .mobilenav {
+        margin-bottom: 30px;
+        justify-content: center;
+    } 
+
+}
+
+.hamburger__line,.hamburger__middle, .hamburger__line2 {
+    display: block;
+    background-color: #fff;
+    
+    width: 30px;
+    height: 1px;
+}
+.hamburger__middle {
+    margin-top: 7px;
+}
+.hamburger__line2 {
+    margin-top: 7px;
+}
+h1 {
+    font-style: 36px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    font-weight: 400;
+}
+li {
+    color: white;
+    font-size: 32px;
+}
+@media (max-width:1122px) {
+   li {
+    font-size: 22px;
+   }
+}
+p {
+    color: white;
+}
+.socials {
+    color: white;
+    width: 110px;
+    display: flex;
+    height: 35px;
+    margin-top: auto;
+    margin-bottom: auto;
+   margin-left: 305px;
+
+}
+@media (max-width:2044px) {
+    .socials { 
+      margin-left: 205px;
+    }
+}
+@media (max-width:1751px) {
+    .socials { 
+      margin-left: 155px;
+    }
+}
+@media (max-width:1505px) {
+    .socials { 
+      margin-left: 100px;
+    }
+}
+@media (max-width:900px) {
+    .socials { 
+        
+        
+        height: 25px;
+    }
+}
+@media (max-width:765px) {
+    .socials { 
+       margin-left: 26px;
+    }
+}
+.telegram {
+    margin-right: 40px;
+}
+@media (max-width:900px) {
+    .telegram { 
+        margin-right: 20px;
+       
+    }
+}
+.block_about_me {
+    display: flex;
+    margin-top: 190px;
+    
+}
+@media (max-width:750px) {
+    .about_me {
+        max-width: 100%;
+        height: max-content;
+    }
+    .text {
+        max-width: 100%;
+      
+    }
+    .block_about_me { 
+        height: 588px;
+        margin-top: 50px;
+    }
+}
+@media (max-width:664px) {
+    
+    .block_about_me { 
+        height: 100%;
+    }
+}
+.benefits { 
+    display: flex;
+    
+}
+.about_text {
+    background: rgba(217, 217, 217, 0.04);
+    height: 430px;
+    width: 721px;
+   
+}
+@media (max-width:750px) {
+    .about_text {
+        height: 100%;
+        max-width: 100%;
+        height: max-content;
+     }
+}
+.text_li {
+    margin-top: 27px;
+    font-size: 32px;
+}
+@media (max-width:800px) {
+    .text_li {
+        margin-top: 6px;
+        
+    }  
+}
+.h1_about{
+    width: 600px;
+    font-size: 55px;
+    margin-top: 47px;
+    text-align: center;
+}
+@media (max-width:800px) {
+    .h1_about{
+        max-width: 100%;
+    }
+}
+.ul_about{
+    border-radius: 10px;
+    padding: 1px;
+    margin-left: 50px;
+}
+.button_about{
+    width: 721px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+}
+@media (max-width:600px) {
+    .button_about{ 
+        max-width:100%;
+    }
+}
+.note {
+    width: 271px;
+    background-color: #490400;
+    margin-top: 27px;
+    font-size: 28px;
+    color: white;
+    font-family: 'Poiret One';
+    border: 2px solid #FFFFFF;
+    border-radius: 20px 5px 5px 5px;
+    cursor: pointer;
+}
+.note:hover {
+ 
+ background-color: #5e0600;
+}
+.benefits {
+    background: rgba(217, 217, 217, 0.06);
+    height: 602px;
+    width: 100%;
+}
+@media (max-width:1680px) {
+    .benefits {
+        height: max-content;
+    }
+}
+@media (max-width:900px) {
+    .benefits {
+        display: block;
+    }
+}
+.text_benefits{
+    width: 972px;
+    margin-left: 282px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 20px;
+}
+@media (max-width:1784px) {
+    .text_benefits{
+        margin-left: 172px;
+        width: 100%;
+    }
+}
+@media (max-width:1680px) {
+    .text_benefits{
+        margin-left: 80px;
+       
+    }
+}
+@media (max-width:1406px) {
+    .text_benefits{
+        margin-left: 40px;
+        
+    }
+}
+@media (max-width:1142px) {
+    .text_benefits{
+        margin-left: 30px;
+        
+    }
+}
+@media (max-width:900px) {
+    .text_benefits {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.img_benefits {
+    align-items: center;
+    display: flex;
+}
+@media (max-width:900px) {
+    .img_benefits {
+        justify-content: center;
+    }
+}
+@media (max-width:1142px) {
+    .img_benefits_image{
+        display: block; 
+        max-width: 100%;
+    }
+}
+
+.h1_benefits {
+    display: block;
+    width: 957px;
+    margin-top: 35px;
+    font-size: 70px;
+    text-align: center;
+}
+@media (max-width:1680px) {
+    .h1_benefits{
+        margin-top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+}
+@media (max-width:900px) {
+    .h1_benefits {
+        justify-content: center;
+    }
+}
+.p_benefits {
+    font-size: 37px;
+    text-align: center;
+    
+}
+.h1_training{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+.training_background {
+    
+    width: 100%;
+    height: max-content;
+    background: rgba(255, 255, 255, 0.07);
+}
+.trainigs_imgs{
+    height: max-content;
+    justify-content: center;
+   padding-top: 47px;
+   display: flex;
+   flex-wrap: wrap;
+   padding-right: 5%;
+}
+@media (max-width:2400px) {
+    .trainigs_imgs{ 
+        
+        height: max-content;
+        justify-content: center;
+    }
+    .training_background {
+        height: max-content;
+    }
+}
+
+.cardio,.lfk,.ofp,.recovery,.power,.stretching,.pilates,.circle,.trx,.crossfit {
+    cursor: pointer;
+    margin-left: 5%;
+    min-width: 288px;
+    margin-bottom: 30px;
+    
+}
+
+.prices {
+    margin-top: 62px;
+}
+.price_h1 {
+    font-size: 70px;
+    text-align: center;
+}
+.training_blocks {
+    flex-wrap: wrap;
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width:1718px) {
+    .training_blocks {
+    justify-content: center;
+    }
+}
+.one_training,.six_training,.tvelwe_training {
+    margin: 20px;
+    width: 510px;
+    height: 472px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 15px;
+}
+.prices_h1 {
+    margin-top: 24px;
+    font-size: 64px;
+    text-align: center;
+}
+.prices_h2 {
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    font-weight: 400;
+}
+.prices_button{
+    font-size: 38px;
+    color: white;
+    width: 307px;
+    height: 62px;
+    background: #490400;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Poiret One';
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.prices_button:hover {
+cursor: pointer;
+background: #710600;
+}
+.reviews{
+    height: 547px;
+}
+@media (max-width:1867px) {
+    .reviews{
+    height: max-content;
+        
+    }
+}
+.reviews_blocks{
+    display: flex;
+    
+    margin-top: 57px;
+    
+    justify-content: space-between;
+    
+}
+@media (max-width:1867px) {
+    .reviews_blocks{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+.reviews_h1{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 23px;
+}
+.first_review,.second_review,.third_review,.four_review {
+    width: 402px;
+    height: 291px;
+    background: rgba(217, 217, 217, 0.04);
+    border-radius: 12px;  
+    margin: 20px;  
+}
+.review_img{
+    margin-top: 22px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.review_name{
+    text-align: center;
+}
+.review_text {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 356px;
+    text-align: center;
+}
+.contacts_blocks{
+    display: flex;
+    margin-top: 50px;
+    height: 183px;
+    background: rgba(217, 217, 217, 0.04);
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media (max-width:1400px) {
+    .contacts_blocks{
+        height: max-content;
+        justify-content: center;
+    }
+}
+.contacts_h1{
+    text-align: center;
+    font-size: 70px;
+}
+.adress{
+    max-width: 100%;
+    margin-top: 21px;
+}
+@media (max-width:1400px) {
+    .adress {
+        margin-left: 0;
+        max-width: 100%;
+        margin-right: 30px;
+
+    }
+   
+}
+.footer_adress{
+    margin-left: 152px;
+    
+}
+.footer_adress1{
+    margin-top: 20px;
+    margin-left: 44px;
+    text-align: center;
+}
+.tel{
+    margin-top: 21px;
+   
+    
+}
+@media (max-width:1400px) {
+    .tel {
+        margin-left: 0;
+        max-width: 100%;
+        margin-right: 30px;
+    }
+}
+.footer_h1 {
+    margin-bottom: 48px;
+    text-align: center;
+}
+.footer_tel,.footer_email{
+    margin-top: 48px;
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+    text-align: center;
+    width: 246px;
+}
+.footer_email {
+    width: 100%;
+}
+@media (max-width:1122px) {
+    .footer_email {
+        margin-left: 0;
+        width: max-content;
+    }
+}
+.footer_socials{
+    margin-right: 160px;
+}
+@media (max-width:1400px) {
+    .footer_socials {
+        margin-right: 0;
+    }
+}
+.socials_footer{
+    margin-top: 36px;
+    display: flex;
+    
+}
+a {
+    display: flex;
+    
+    text-decoration: none;
+}
+.insta {
+    width: 48px;
+    height: 41px;
+    margin-right: 26px;
+    margin-left: 15px;
+}
+.telegram_footer {
+    width: 43px;
+    height: 41px;
+}
+.about_me_page {
+    
+    margin-top: 250px;
+    display: flex;
+    background: rgba(217, 217, 217, 0.04);
+    height: 868px;
+    margin-bottom: 104px;
+}
+.img_about_me_page {
+    margin-left: 45px;
+}
+.text_about_me_page {
+    margin-left: 45px;
+    margin-top: 80px;
+    line-height: 42px;
+    width: 1065px;
+    height: 630px;
+    text-align: center;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+.trainings_page{
+    margin-top: 200px;
+    margin-bottom: 104px;
+}
+.img_about_me_page {
+    margin-left: 2px;
+
+}
+@media (max-width:1534px) {
+    .text_about_me_page { 
+        margin-top: 0px;
+    }
+}
+.img_about_me_page_image {
+    display: block;
+  
+}
+@media (max-width:1534px) {
+    .text_about_me_page { 
+        height: 700px;
+    }
+}
+@media (max-width:1200px) {
+    .img_about_me_page_image { 
+        height: 650px;
+        align-self: center;
+    }
+    .img_about_me_page {
+        display: flex;
+    }
+}
+@media (max-width:1040px) {
+    .img_about_me_page_image { 
+        height: 600px;
+        align-self: center;
+    }
+}
+@media (max-width:900px) {
+    .img_about_me_page_image { 
+        height: 500px;
+        align-self: center;
+    }
+}
+@media (max-width:768px) {
+    .about_me_page {
+        display: block;
+        
+    }
+    .img_about_me_page {
+        justify-content: center;
+    }
+    .text_about_me_page,.text_about_me_page_p {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+@media (max-width:1438px) {
+    .text_about_me_page { 
+        height:max-content;
+        
+    }
+    .about_me_page {
+        height: max-content;
+    }
+    .text_about_me_page_p {
+        font-size: 30px;
+    }
+}
+.text_about_me_page_p {
+    display: block;
+    width: 100%;
+}
